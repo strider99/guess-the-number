@@ -7,7 +7,7 @@ import random
 
 
 
-# initialize global variables used in your code
+# initialize global variables used
 secret_number = 0
 count = 7
 maxrange = 100
@@ -31,11 +31,11 @@ def new_game():
     
     
     
-    # remove this when you add your code    
+        
     
 
 
-# define event handlers for control panel
+# event handlers for control panel
 def range100():
     global secret_number
     global count
@@ -45,9 +45,9 @@ def range100():
     count = 7
     #print "GAME RESTARTED... Enter between range [0,100)"
     new_game()
-    # button that changes range to range [0,100) and restarts
     
-    # remove this when you add your code    
+    
+        
     
 def range1000():
     
@@ -93,7 +93,7 @@ def input_guess(guess):
              
     print '     '
     
-    # remove this when you add your code
+    
    
 
     
