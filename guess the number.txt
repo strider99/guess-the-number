@@ -1,4 +1,3 @@
-# template for "Guess the number" mini-project
 # input will come from buttons and an input field
 # all output for the game will be printed in the console
 import simplegui
@@ -112,5 +111,3 @@ f.add_input("Enter your guess",input_guess,100)
 new_game()
 f.start()
 
-
-# always remember to check your completed program against the grading rubric
